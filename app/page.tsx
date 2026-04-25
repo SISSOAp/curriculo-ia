@@ -138,7 +138,9 @@ export default function Home() {
 
         {/* Top bar */}
         <div className="no-print" style={{ position: 'relative', zIndex: 10, background: 'rgba(5,7,20,0.85)', backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(20px)', borderBottom: '1px solid rgba(255,255,255,0.07)', padding: '14px 28px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <img src="/logo.png" alt="Trampaí" style={{ height: 52, objectFit: 'contain' }} />
+          <div style={{ width: 180, height: 60, overflow: 'hidden', flexShrink: 0 }}>
+            <img src="/logo.png" alt="Trampaí" style={{ width: 200, marginTop: -25, marginLeft: -10 }} />
+          </div>
           <div style={{ display: 'flex', gap: 10 }}>
             <button onClick={() => setEtapa('form')} className="glass" style={{ padding: '8px 18px', borderRadius: 10, color: 'rgba(255,255,255,0.7)', cursor: 'pointer', fontSize: 13, fontWeight: 500 }}>
               ← Editar
@@ -230,7 +232,9 @@ export default function Home() {
 
         {/* Header */}
         <div style={{ padding: '20px 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <img src="/logo.png" alt="Trampaí" style={{ height: 52, objectFit: 'contain' }} />
+          <div style={{ width: 180, height: 60, overflow: 'hidden', flexShrink: 0 }}>
+            <img src="/logo.png" alt="Trampaí" style={{ width: 200, marginTop: -25, marginLeft: -10 }} />
+          </div>
           <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.45)', border: '1px solid rgba(255,255,255,0.08)', padding: '5px 14px', borderRadius: 99, background: 'rgba(255,255,255,0.03)' }}>🔒 100% grátis</span>
         </div>
 

@@ -125,7 +125,9 @@ export default function DemoPage() {
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 28 }}>
           <div>
             <h1 style={{ fontSize: 22, fontWeight: 900, color: '#fff', margin: 0, letterSpacing: '-0.03em' }}>
-              <img src="/logo.png" alt="Trampaí" style={{ height: 52, objectFit: 'contain' }} />
+              <div style={{ width: 180, height: 60, overflow: 'hidden', flexShrink: 0 }}>
+              <img src="/logo.png" alt="Trampaí" style={{ width: 200, marginTop: -25, marginLeft: -10 }} />
+            </div>
             </h1>
             <p style={{ fontSize: 12, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>Exemplo com dados fictícios — Marina Costa Silva</p>
           </div>
