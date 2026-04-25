@@ -138,7 +138,7 @@ export default function Home() {
 
         {/* Top bar */}
         <div className="no-print" style={{ position: 'relative', zIndex: 10, background: 'rgba(5,7,20,0.85)', backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(20px)', borderBottom: '1px solid rgba(255,255,255,0.07)', padding: '14px 28px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <img src="/logo.jpg" alt="Trampaí" style={{ height: 32, objectFit: 'contain' }} />
+          <img src="/logo.png" alt="Trampaí" style={{ height: 44, objectFit: 'contain' }} />
           <div style={{ display: 'flex', gap: 10 }}>
             <button onClick={() => setEtapa('form')} className="glass" style={{ padding: '8px 18px', borderRadius: 10, color: 'rgba(255,255,255,0.7)', cursor: 'pointer', fontSize: 13, fontWeight: 500 }}>
               ← Editar
