@@ -422,7 +422,7 @@ function Sidebar({
 
       <div style={{ marginTop: 'auto', paddingTop: '16px', textAlign: 'center' }}>
         <p style={{ fontSize: '7.5px', color: 'rgba(255,255,255,0.15)', letterSpacing: '0.1em', textTransform: 'uppercase', margin: 0 }}>
-          {isPremium ? 'Premium · ' : ''}{new Date().getFullYear()}
+          trampaí.com.br · {new Date().getFullYear()}
         </p>
       </div>
     </div>

@@ -138,7 +138,7 @@ export default function Home() {
 
         {/* Top bar */}
         <div className="no-print" style={{ position: 'relative', zIndex: 10, background: 'rgba(5,7,20,0.85)', backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(20px)', borderBottom: '1px solid rgba(255,255,255,0.07)', padding: '14px 28px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <span className="gradient-text-static" style={{ fontWeight: 900, fontSize: 22, letterSpacing: '-0.03em' }}>CurrículoIA ✦</span>
+          <span className="gradient-text-static" style={{ fontWeight: 900, fontSize: 22, letterSpacing: '-0.03em' }}>Trampaí ✦</span>
           <div style={{ display: 'flex', gap: 10 }}>
             <button onClick={() => setEtapa('form')} className="glass" style={{ padding: '8px 18px', borderRadius: 10, color: 'rgba(255,255,255,0.7)', cursor: 'pointer', fontSize: 13, fontWeight: 500 }}>
               ← Editar
@@ -230,7 +230,7 @@ export default function Home() {
 
         {/* Header */}
         <div style={{ padding: '20px 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <span className="gradient-text-static" style={{ fontWeight: 900, fontSize: 24, letterSpacing: '-0.03em' }}>CurrículoIA ✦</span>
+          <span className="gradient-text-static" style={{ fontWeight: 900, fontSize: 24, letterSpacing: '-0.03em' }}>Trampaí ✦</span>
           <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.45)', border: '1px solid rgba(255,255,255,0.08)', padding: '5px 14px', borderRadius: 99, background: 'rgba(255,255,255,0.03)' }}>🔒 100% grátis</span>
         </div>
 
@@ -238,14 +238,14 @@ export default function Home() {
         <div style={{ textAlign: 'center', padding: '44px 24px 36px', maxWidth: 700, margin: '0 auto' }}>
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(124,58,237,0.14)', border: '1px solid rgba(167,139,250,0.22)', borderRadius: 99, padding: '6px 16px', fontSize: 13, color: '#a78bfa', marginBottom: 24, animation: 'fade-up 0.5s ease forwards' }}>
             <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#a78bfa', boxShadow: '0 0 6px #a78bfa', animation: 'pulse-orb 2s ease-in-out infinite', display: 'block' }} />
-            Powered by LLaMA 3 · Grátis para sempre
+            Powered by IA · Grátis para sempre
           </div>
           <h1 style={{ fontSize: 'clamp(36px, 6vw, 66px)', fontWeight: 900, color: '#fff', lineHeight: 1.1, letterSpacing: '-0.03em', marginBottom: 18, animation: 'fade-up 0.5s ease 0.1s both' }}>
-            Currículo profissional<br />
-            <span className="gradient-text">em 2 minutos</span>
+            Seu trampo<br />
+            <span className="gradient-text">começa aqui</span>
           </h1>
           <p style={{ fontSize: 17, color: 'rgba(255,255,255,0.5)', lineHeight: 1.7, maxWidth: 500, margin: '0 auto 32px', animation: 'fade-up 0.5s ease 0.2s both' }}>
-            A IA gera seu currículo e depois simula uma entrevista real com feedback profissional em cada resposta.
+            A IA cria seu currículo profissional em 2 minutos e ainda simula uma entrevista real com feedback em cada resposta.
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: 36, marginBottom: 44, animation: 'fade-up 0.5s ease 0.3s both' }}>
             {[{ n: '12k+', l: 'currículos criados' }, { n: '⭐ 4.9', l: 'avaliação média' }, { n: '< 15s', l: 'tempo de geração' }].map((s, i) => (
